@@ -1,0 +1,234 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "30 may 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM358 U?
+U 1 1 58C5504A
+P 5500 3750
+F 0 "U?" H 5450 3950 60  0000 L CNN
+F 1 "LM358" H 5450 3500 60  0000 L CNN
+F 2 "" H 5500 3750 60  0000 C CNN
+F 3 "" H 5500 3750 60  0000 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58C55068
+P 5400 2900
+F 0 "#PWR?" H 5400 2990 20  0001 C CNN
+F 1 "+5V" H 5400 2990 30  0000 C CNN
+F 2 "" H 5400 2900 60  0000 C CNN
+F 3 "" H 5400 2900 60  0000 C CNN
+	1    5400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58C55150
+P 4750 3650
+F 0 "R?" V 4830 3650 40  0000 C CNN
+F 1 "100K" V 4750 3650 40  0000 C CNN
+F 2 "~" V 4680 3650 30  0000 C CNN
+F 3 "~" H 4750 3650 30  0000 C CNN
+	1    4750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C5515F
+P 4750 2800
+F 0 "R?" V 4830 2800 40  0000 C CNN
+F 1 "100K" V 4757 2801 40  0000 C CNN
+F 2 "~" V 4680 2800 30  0000 C CNN
+F 3 "~" H 4750 2800 30  0000 C CNN
+	1    4750 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 58C55388
+P 5400 4150
+F 0 "#PWR?" H 5400 4200 40  0001 C CNN
+F 1 "GNDPWR" H 5400 4070 40  0000 C CNN
+F 2 "" H 5400 4150 60  0000 C CNN
+F 3 "" H 5400 4150 60  0000 C CNN
+	1    5400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 58C5542A
+P 4350 3650
+F 0 "RV?" H 4350 3550 50  0000 C CNN
+F 1 "10K" H 4350 3650 50  0000 C CNN
+F 2 "~" H 4350 3650 60  0000 C CNN
+F 3 "~" H 4350 3650 60  0000 C CNN
+	1    4350 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58C55471
+P 4350 3400
+F 0 "#PWR?" H 4350 3490 20  0001 C CNN
+F 1 "+5V" H 4350 3490 30  0000 C CNN
+F 2 "" H 4350 3400 60  0000 C CNN
+F 3 "" H 4350 3400 60  0000 C CNN
+	1    4350 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 58C5548A
+P 4350 3900
+F 0 "#PWR?" H 4350 3950 40  0001 C CNN
+F 1 "GNDPWR" H 4350 3820 40  0000 C CNN
+F 2 "" H 4350 3900 60  0000 C CNN
+F 3 "" H 4350 3900 60  0000 C CNN
+	1    4350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV?
+U 1 1 58C554C1
+P 4350 2800
+F 0 "RV?" H 4350 2700 50  0000 C CNN
+F 1 "10K" H 4350 2800 50  0000 C CNN
+F 2 "~" H 4350 2800 60  0000 C CNN
+F 3 "~" H 4350 2800 60  0000 C CNN
+	1    4350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDPWR #PWR?
+U 1 1 58C554DE
+P 4350 3050
+F 0 "#PWR?" H 4350 3100 40  0001 C CNN
+F 1 "GNDPWR" H 4350 2970 40  0000 C CNN
+F 2 "" H 4350 3050 60  0000 C CNN
+F 3 "" H 4350 3050 60  0000 C CNN
+	1    4350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J?
+U 1 1 58C55539
+P 3900 2450
+F 0 "J?" H 3550 2250 60  0000 C CNN
+F 1 "JACK_2P" H 3750 2700 60  0000 C CNN
+F 2 "~" H 3900 2450 60  0000 C CNN
+F 3 "~" H 3900 2450 60  0000 C CNN
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2900 5400 3350
+Wire Wire Line
+	5000 2800 5000 3650
+$Comp
+L GNDPWR #PWR?
+U 1 1 58C55596
+P 4650 2450
+F 0 "#PWR?" H 4650 2500 40  0001 C CNN
+F 1 "GNDPWR" H 4650 2370 40  0000 C CNN
+F 2 "" H 4650 2450 60  0000 C CNN
+F 3 "" H 4650 2450 60  0000 C CNN
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2300 4650 2300
+Wire Wire Line
+	4650 2300 4650 2450
+$Comp
+L R R?
+U 1 1 58C5566E
+P 4750 4500
+F 0 "R?" V 4830 4500 40  0000 C CNN
+F 1 "10K" V 4750 4500 40  0000 C CNN
+F 2 "~" V 4680 4500 30  0000 C CNN
+F 3 "~" H 4750 4500 30  0000 C CNN
+	1    4750 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58C55676
+P 5250 4500
+F 0 "R?" V 5330 4500 40  0000 C CNN
+F 1 "10K" V 5250 4500 40  0000 C CNN
+F 2 "~" V 5180 4500 30  0000 C CNN
+F 3 "~" H 5250 4500 30  0000 C CNN
+	1    5250 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 3750 6000 4500
+Wire Wire Line
+	6000 4500 5500 4500
+Wire Wire Line
+	5000 4500 5000 3850
+Wire Wire Line
+	4500 4500 4500 4700
+$Comp
+L GNDPWR #PWR?
+U 1 1 58C556D5
+P 4500 4700
+F 0 "#PWR?" H 4500 4750 40  0001 C CNN
+F 1 "GNDPWR" H 4500 4620 40  0000 C CNN
+F 2 "" H 4500 4700 60  0000 C CNN
+F 3 "" H 4500 4700 60  0000 C CNN
+	1    4500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3750 6650 3750
+Text Label 7500 3600 0    60   ~ 0
+To Arduino analog in
+Text GLabel 7650 3600 0    60   Input ~ 0
+To Arduino analog in
+Connection ~ 6250 3750
+$EndSCHEMATC
